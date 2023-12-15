@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6393b0faed9438be9b1b0dc33d02e1a4, type: 3}
+  m_Name: New Gameplay Scene Setup
+  m_EditorClassIdentifier: 
+  level_pick: 0
+  levelSetup:
+  - Bacteria: {fileID: 6021239070187550483, guid: 28a33532a08b92fd98dae3b3c3135310, type: 3}
+    handWashingStepButton:
+    - step2
+    - step3
+    - step4
+  - Bacteria: {fileID: 1528117307196044008, guid: c59520a09369e1fa19a036d3c5dd7581, type: 3}
+    handWashingStepButton:
+    - step4
+    - step5
+    - step6
+    - step7
+  - Bacteria: {fileID: 4752954817539461303, guid: 03a9874427179b53cb353ab07df96797, type: 3}
+    handWashingStepButton:
+    - step2
+    - step3
+    - step4
+    - step5
+    - step6
+    - step7
