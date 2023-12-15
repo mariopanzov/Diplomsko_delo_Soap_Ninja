@@ -48,6 +48,11 @@ MonoBehaviour:
   gameplaySceneSetup: {fileID: 11400000, guid: 351ec251041461e49b49387593e4b257, type: 2}
   bacteria_transform: {fileID: 0}
   button_grid_transform: {fileID: 0}
+  _bacteria:
+    m_AssetGUID: 28a33532a08b92fd98dae3b3c3135310
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
 --- !u!114 &1893536462075756033
 MonoBehaviour:
   m_ObjectHideFlags: 0

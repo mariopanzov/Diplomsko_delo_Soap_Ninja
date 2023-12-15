@@ -16,7 +16,22 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 039641fee864cab8c928544624f213e1
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 28a33532a08b92fd98dae3b3c3135310
+    m_Address: Assets/Prefabs/BACTERIA_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03a9874427179b53cb353ab07df96797
+    m_Address: Assets/Prefabs/BACTERIA_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c59520a09369e1fa19a036d3c5dd7581
+    m_Address: Assets/Prefabs/BACTERIA_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 6813b36572a60e33581700375e0ca65b, type: 2}
   m_SchemaSet:

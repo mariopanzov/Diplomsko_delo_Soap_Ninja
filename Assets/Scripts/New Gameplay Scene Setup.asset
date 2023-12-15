@@ -14,18 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level_pick: 0
   levelSetup:
-  - Bacteria: {fileID: 6021239070187550483, guid: 28a33532a08b92fd98dae3b3c3135310, type: 3}
+  - _bacteria_assetReferenceGameObject:
+      m_AssetGUID: 28a33532a08b92fd98dae3b3c3135310
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
     handWashingStepButton:
     - step2
     - step3
     - step4
-  - Bacteria: {fileID: 1528117307196044008, guid: c59520a09369e1fa19a036d3c5dd7581, type: 3}
+  - _bacteria_assetReferenceGameObject:
+      m_AssetGUID: c59520a09369e1fa19a036d3c5dd7581
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
     handWashingStepButton:
     - step4
     - step5
     - step6
     - step7
-  - Bacteria: {fileID: 4752954817539461303, guid: 03a9874427179b53cb353ab07df96797, type: 3}
+  - _bacteria_assetReferenceGameObject:
+      m_AssetGUID: 03a9874427179b53cb353ab07df96797
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
     handWashingStepButton:
     - step2
     - step3

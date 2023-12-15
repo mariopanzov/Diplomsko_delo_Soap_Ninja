@@ -15,8 +15,8 @@ public class GameplaySceneSetup : ScriptableObject
 [System.Serializable]
 public class GameplaySceneLevelSetup
 {
-   //public AssetReferenceGameObject assetReferenceGameObject_Bacteria;
-    public GameObject Bacteria;
+    public AssetReferenceGameObject _bacteria_assetReferenceGameObject;
+    //public GameObject Bacteria;
     public string[] handWashingStepButton;
     //public AssetReferenceGameObject[] assetReferenceGameObject_HandWashingStepButton;
 
