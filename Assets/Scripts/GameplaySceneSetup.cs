@@ -8,17 +8,16 @@ using UnityEngine.AddressableAssets;
 [CreateAssetMenu]
 public class GameplaySceneSetup : ScriptableObject
 {
-    public int level_pick = 0;
-    [SerializeField] public GameplaySceneLevelSetup[] levelSetup;
+    public int _level_pick = 0;
+    public GameplaySceneLevelSetup[] levelSetup;
 }
 
 [System.Serializable]
 public class GameplaySceneLevelSetup
 {
     public AssetReferenceGameObject _bacteria_assetReferenceGameObject;
-    //public GameObject Bacteria;
-    public string[] handWashingStepButton;
-    //public AssetReferenceGameObject[] assetReferenceGameObject_HandWashingStepButton;
+    //[Range(1,6)] public int _nubmer_of_steps;
+    public string[] _hand_washing_steps;
 
     ~GameplaySceneLevelSetup(){}
 }

@@ -48,6 +48,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2872215255701559047, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.107
+      objectReference: {fileID: 0}
+    - target: {fileID: -2872215255701559047, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.189
+      objectReference: {fileID: 0}
+    - target: {fileID: -484586475511793521, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.034735598
+      objectReference: {fileID: 0}
+    - target: {fileID: -484586475511793521, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.012244001
+      objectReference: {fileID: 0}
+    - target: {fileID: -484586475511793521, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.0032117143
+      objectReference: {fileID: 0}
+    - target: {fileID: -484586475511793521, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.0062829833
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
       propertyPath: m_Name
       value: NINJA1
@@ -86,14 +110,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 850019054760295139}
+      addedObject: {fileID: 4857160309734509314}
   m_SourcePrefab: {fileID: 100100000, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
 --- !u!1 &17700381901616198 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: efc80dacb4b6722c8bea1b59e7042d28, type: 3}
   m_PrefabInstance: {fileID: 936620864197052695}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &850019054760295139
+--- !u!95 &4857160309734509314
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0

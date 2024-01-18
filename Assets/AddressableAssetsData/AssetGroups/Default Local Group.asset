@@ -22,13 +22,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c59520a09369e1fa19a036d3c5dd7581
+    m_Address: Assets/Prefabs/BACTERIA_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 03a9874427179b53cb353ab07df96797
     m_Address: Assets/Prefabs/BACTERIA_3.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c59520a09369e1fa19a036d3c5dd7581
-    m_Address: Assets/Prefabs/BACTERIA_2.prefab
+  - m_GUID: a997da6bd6f1e9b88b71f662a23635fa
+    m_Address: Assets/Prefabs/checkmark.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dce158ff7906d33aa63070e08a33473
+    m_Address: Assets/Prefabs/checkmark_parent.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

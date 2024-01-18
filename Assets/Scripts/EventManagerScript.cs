@@ -21,6 +21,8 @@ public class EventManagerScript : MonoBehaviour
 
     public void ManageTouchedEvent(Component sender, object data)
     {
+
+        Debug.Log("im here");
         if(eventObjectPair.Length != 0)
         {
             for(int i = 0; i < eventObjectPair.Length; i++)
@@ -46,5 +48,10 @@ public class EventManagerScript : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void ManageEvent(Component sender, object data)
+    {
+        
     }
 }

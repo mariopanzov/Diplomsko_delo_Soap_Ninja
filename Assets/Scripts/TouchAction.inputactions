@@ -15,13 +15,22 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "TouchHold",
+                    "type": "Button",
+                    "id": "7a4d0374-ae21-41b8-8c36-2130106a99c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "TouchPress",
                     "type": "Button",
                     "id": "9578b0f6-9f5d-46cf-980f-ddc418f61c33",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -29,7 +38,7 @@
                     "name": "",
                     "id": "9f35350f-2c65-4429-81cd-0906a4f2463b",
                     "path": "<Touchscreen>/position",
-                    "interactions": "Tap",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "TouchPosition",
@@ -44,6 +53,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "TouchPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9bf11d03-dd19-4cda-8368-1909052d1bbe",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "SlowTap(duration=0.6)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchHold",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

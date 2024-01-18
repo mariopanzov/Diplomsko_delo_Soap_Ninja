@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 72a3c11952f1b607f81f858f71b3dc14, type: 3}
+  m_Texture: {fileID: 2800000, guid: fc951acba53706b70a108ae4b9d5b262, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -92,5 +92,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 30, y: 30, z: 10}
+  m_Size: {x: 150, y: 150, z: 20}
   m_Center: {x: 0, y: 0, z: 0}

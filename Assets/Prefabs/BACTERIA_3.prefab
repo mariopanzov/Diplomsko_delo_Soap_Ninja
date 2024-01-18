@@ -124,13 +124,45 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 2.0068586
       objectReference: {fileID: 0}
+    - target: {fileID: 4195701929028855220, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4195701929028855220, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4195701929028855220, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4195701929028855220, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696504377945327213, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696504377945327213, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696504377945327213, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696504377945327213, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 205678820139688326}
+      addedObject: {fileID: 825264017418537687}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5866094098049310673}
@@ -140,7 +172,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9089188dac15c015398cd7b43ba59635, type: 3}
   m_PrefabInstance: {fileID: 5563224171043286502}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &205678820139688326
+--- !u!95 &825264017418537687
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
