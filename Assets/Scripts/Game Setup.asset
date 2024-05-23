@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6393b0faed9438be9b1b0dc33d02e1a4, type: 3}
+  m_Name: Game Setup
+  m_EditorClassIdentifier: 
+  _gameEvent_animations: {fileID: 11400000, guid: d71a6e206ac4cb57f894a2b1b74bbbc4, type: 2}
+  _gameEvent_particles: {fileID: 11400000, guid: 04db2e0a576fca278bc7a22f81f462d2, type: 2}
+  _gameEvent_change_scene: {fileID: 11400000, guid: 4bd0d58a1d62e573fb22c2e32a414096, type: 2}
+  _gameEvent_change_state: {fileID: 11400000, guid: fe72f1ddfca0da7e0b9f750f7790cd55, type: 2}
+  _gameEvent_change_button_image_state: {fileID: 11400000, guid: 9a1bd5ad8a4e12295a03dbca86d2ac73, type: 2}
+  _gameEvent_focus_highlight_step_state: {fileID: 11400000, guid: 98f19b41fe5ab6c7aac9d5955d07b22e, type: 2}
+  _gameEvent_add_checkmark: {fileID: 11400000, guid: 512018fad6a6281f1b5d109f455121f4, type: 2}
+  _gameEvent_toggle_touch_settings: {fileID: 11400000, guid: 85bb1dceb3e6672a384e5825b5ca59de, type: 2}
+  _gameEvent_toggle_grid_buttons: {fileID: 11400000, guid: ecb409c75d2e0b8ae8d098b8bba1a322, type: 2}
+  _game_complete: 0
+  _picked_level: 2
+  _n_of_completed_levels: 2
+  levelSetup:
+  - _bacteria_assetReferenceGameObject:
+      m_AssetGUID: 28a33532a08b92fd98dae3b3c3135310
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _hand_washing_steps:
+    - step2
+    - step3
+    _level_completed: 1
+  - _bacteria_assetReferenceGameObject:
+      m_AssetGUID: c59520a09369e1fa19a036d3c5dd7581
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _hand_washing_steps:
+    - step2
+    - step3
+    - step4
+    - step5
+    _level_completed: 0
+  - _bacteria_assetReferenceGameObject:
+      m_AssetGUID: 03a9874427179b53cb353ab07df96797
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _hand_washing_steps:
+    - step2
+    - step3
+    - step4
+    - step5
+    - step6
+    - step7
+    _level_completed: 1

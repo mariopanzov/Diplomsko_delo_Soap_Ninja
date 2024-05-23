@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b9c8354955ee96031af7d9a0732b2089
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _gameEvent_animations: {instanceID: 0}
+  - _gameEvent_particles: {instanceID: 0}
+  - _gameEvent_exit: {instanceID: 0}
+  - _gameEvent_change_state: {instanceID: 0}
+  - _gameEvent_change_button_image_state: {instanceID: 0}
+  - _gameEvent_focus_highlight_step_state: {instanceID: 0}
+  - _gameEvent_add_checkmark: {instanceID: 0}
+  - _gameEvent_toggle_touch_settings: {instanceID: 0}
+  executionOrder: 45
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonsScript : MonoBehaviour
+public class ButtonsScrSetButtonImageipt : MonoBehaviour
 {
-    public Texture2D[] image;
-    
+
+    public Texture2D[] images;
     private RawImage button_image;
 
     private void Awake()
@@ -13,9 +13,12 @@ public class ButtonsScript : MonoBehaviour
         Debug.Log(this.name);
     }
 
-    public void changeButtonImage(Component sender, object data)
+    public void changeButtonImage(Component sender, string function, object data)
     {
-        button_image.texture = image[(int) data];
-        this.name = image[(int) data].name;
+        if((int) data < images.Length)
+        {
+            button_image.texture = images[(int) data];
+            this.name = images[(int) data].name;
+        }
     }
 }
